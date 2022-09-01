@@ -1,3 +1,28 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+
+# Crypto Prism
+
+**This app is built using react and reduxtoolkit. Ituses [coinlore](https://api.coinlore.net/api/tickers/). api to display a list of the best 100 cryptocurrency coins and their prices in descending order. A user can click on a coin to see the rest of the details about the coin. It has unit tests done using jest and integration testing that tests the whole application.**
+
+## Built With
+
+- HTML
+- CSS
+- Javascript
+- React
+- Reduxtoolkit
+- Jest for testing
+
+### Prerequisites
+
+- vscode or any ide
+- Terminal
+- Node
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,6 +31,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Setup
+
+- Clone this repo ~$ git clone
+  - http : https://github.com/Nyame-Wolf/crypto-prisim.git
+  - ssh :git@github.com:Nyame-Wolf/crypto-prisim.git
+- Change directory to movie app ~$ cd movie-app
+
+### Install
+
+### `npm install`
+
+### Usage
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,6 +51,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### Run tests
 
 ### `npm test`
 
@@ -39,32 +79,34 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## [Live Demo :arrow_forward:]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+- GitHub: [@Nyame-Wolf](https://github.com/Nyame-Wolf)
+- Twitter: [@mumenyam](https://twitter.com/mumenyam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Nyame-Wolf/crypto-prism/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- Hat tip to anyone whose code was used
+- Much greatful to my friends [Vitor](https://github.com/VitorGuedesMadeira) for the feedback and his input in design
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+- [Coinlore api](https://api.coinlore.net/api/tickers/) which has granted me free access to api.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
