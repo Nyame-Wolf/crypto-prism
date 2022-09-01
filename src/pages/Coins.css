@@ -1,0 +1,92 @@
+.container {
+  background: #6699cc;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+}
+
+.btc-symbol {
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 502px);
+  background-color: #205b96;
+}
+
+.individual-coin {
+  /* background-color: #1d4e80; */
+  background-color: #205b96;
+  /* background-color: #296eb3; */
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+}
+
+.individual-coin:nth-child(2),
+.individual-coin:nth-child(3),
+.individual-coin:nth-child(6),
+.individual-coin:nth-child(7),
+.individual-coin:nth-child(10),
+.individual-coin:nth-child(11),
+.individual-coin:nth-child(14),
+.individual-coin:nth-child(15),
+.individual-coin:nth-child(18),
+.individual-coin:nth-child(19),
+.individual-coin:nth-child(22),
+.individual-coin:nth-child(23),
+.individual-coin:nth-child(26),
+.individual-coin:nth-child(27),
+.individual-coin:nth-child(30),
+.individual-coin:nth-child(31),
+.individual-coin:nth-child(34),
+.individual-coin:nth-child(35),
+.individual-coin:nth-child(38),
+.individual-coin:nth-child(39),
+.individual-coin:nth-child(42),
+.individual-coin:nth-child(43),
+.individual-coin:nth-child(46),
+.individual-coin:nth-child(47),
+.individual-coin:nth-child(50),
+.individual-coin:nth-child(51),
+.individual-coin:nth-child(54),
+.individual-coin:nth-child(55),
+.individual-coin:nth-child(58),
+.individual-coin:nth-child(59),
+.individual-coin:nth-child(62),
+.individual-coin:nth-child(63),
+.individual-coin:nth-child(66),
+.individual-coin:nth-child(67),
+.individual-coin:nth-child(70),
+.individual-coin:nth-child(71),
+.individual-coin:nth-child(74),
+.individual-coin:nth-child(75),
+.individual-coin:nth-child(78),
+.individual-coin:nth-child(79),
+.individual-coin:nth-child(82),
+.individual-coin:nth-child(83),
+.individual-coin:nth-child(86),
+.individual-coin:nth-child(87),
+.individual-coin:nth-child(90),
+.individual-coin:nth-child(91),
+.individual-coin:nth-child(94),
+.individual-coin:nth-child(95),
+.individual-coin:nth-child(98),
+.individual-coin:nth-child(99),
+.individual-coin:nth-child(102),
+.individual-coin:nth-child(103),
+.individual-coin:nth-child(106),
+.individual-coin:nth-child(107),
+.individual-coin:nth-child(110) {
+  background-color: #1d4e80;
+}
+
+.search {
+  color: #000;
+}
