@@ -1,0 +1,14 @@
+.container {
+  background-color: #021e00;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  display: flex;
+}
+
+.coin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
