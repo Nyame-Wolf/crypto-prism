@@ -3,6 +3,11 @@
   background-color: #205b96;
   width: 100%;
   padding: 20px;
+  background-image: url(../assets/3px-tile.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 10px #000;
 }
 .name:nth-child(even) {
   background-color: #1d4e80;

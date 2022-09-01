@@ -1,8 +1,12 @@
+import { useEffect } from 'react';
 import { useLocation, Navigate } from 'react-router-dom';
 import './CoinDetails.css';
 
 const CoinDetails = () => {
   const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(20, 0);
+  });
 
   const singleData = location?.state?.coin;
   if (!singleData) {

@@ -1,7 +1,14 @@
 .container {
-  background: #6699cc;
   width: 100%;
   aspect-ratio: 2 / 1;
+  background-image: linear-gradient(to right ,transparent,#205b96),url(../assets/bitcoinbg.jpg);
+  background-size: cover;
+  padding:30px;
+  font-size: 2em;
+  text-shadow: 0 0 10px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btc-symbol {
@@ -14,21 +21,29 @@
 }
 
 .coin-container {
+   background-color: #205b96;
   display: flex;
   flex-wrap: wrap;
   min-height: calc(100vh - 502px);
-  background-color: #205b96;
 }
 
 .individual-coin {
-  /* background-color: #1d4e80; */
   background-color: #205b96;
-  /* background-color: #296eb3; */
+   background-image: url(../assets/3px-tile.png);
+   text-decoration: none;
   width: calc(100% / 2);
   aspect-ratio: 1 / 1;
   padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.individual-coin:hover{
+  background-color: #B37F29;
+}
+.individual-coin:hover:nth-child(n){
+   background-color: #B37F29;
+}
 .individual-coin:nth-child(2),
 .individual-coin:nth-child(3),
 .individual-coin:nth-child(6),
@@ -89,4 +104,30 @@
 
 .search {
   color: #000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.div-search{
+  display: flex;
+  justify-content: center;
+  background: #1d4e80;
+  padding:15px;
+}
+
+@media all and (min-width: 768px) {
+.individual-coin {
+  width: calc(100% / 3);
+  
+  
+}
+.individual-coin:nth-child(even){
+  background-color: #396188;
+}
+}
+@media all and (min-width: 1440px) {
+.individual-coin {
+  width: calc(100% / 5);
+}
+
 }

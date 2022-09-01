@@ -22,14 +22,18 @@ const Coins = () => {
   return (
     <div>
       <div className="container">{`Total Coins: ${info.coins_num}`}</div>
-      <input
-        type="search"
-        value={search}
-        onChange={(e) => {
-          setSearch(e.target.value);
-        }}
-        className="search"
-      />
+      <div className="div-search">
+        {' '}
+        <input
+          type="search"
+          value={search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+          }}
+          className="search"
+          placeholder="Search coin"
+        />
+      </div>
 
       <ul className="coin-container">
         {filteredCoins.map((coin) => (

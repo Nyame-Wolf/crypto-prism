@@ -7,10 +7,11 @@
 
 .navigation-bar {
   background-color: #1d4e80;
+  background-image: url(../../assets/3px-tile.png);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 30px 30px 0;
+  padding: 30px;
 }
 
 .navigation-ul {
@@ -33,9 +34,13 @@
 }
 
 .prism {
-  width: 100px;
+  width: 60px;
 }
 
-.logo {
-  background-image: url('../../assets/coin.png');
+
+
+.logo-div{
+  display: flex;
+  align-items: center;
+  gap:15px;
 }

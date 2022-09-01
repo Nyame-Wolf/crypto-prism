@@ -15,8 +15,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <img src={prism} alt="prism logo" className="prism" />
-      <p>Crypto Prism</p>
+      <div className="logo-div">
+        <p>Crypto Prism</p>
+        <img src={prism} alt="prism logo" className="prism" />
+      </div>
     </nav>
   );
 };
