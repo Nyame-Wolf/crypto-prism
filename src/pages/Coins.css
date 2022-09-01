@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  background-image: linear-gradient(to right, transparent, #205b96), url(../assets/bitcoinbg.jpg);
+  background-size: cover;
+  padding: 30px;
+  font-size: 2em;
+  text-shadow: 0 0 10px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btc-symbol {
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-container {
+  background-color: #205b96;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 502px);
+}
+
+.individual-coin {
+  background-color: #205b96;
+  background-image: url(../assets/3px-tile.png);
+  text-decoration: none;
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual-coin:nth-child(2),
+.individual-coin:nth-child(3),
+.individual-coin:nth-child(6),
+.individual-coin:nth-child(7),
+.individual-coin:nth-child(10),
+.individual-coin:nth-child(11),
+.individual-coin:nth-child(14),
+.individual-coin:nth-child(15),
+.individual-coin:nth-child(18),
+.individual-coin:nth-child(19),
+.individual-coin:nth-child(22),
+.individual-coin:nth-child(23),
+.individual-coin:nth-child(26),
+.individual-coin:nth-child(27),
+.individual-coin:nth-child(30),
+.individual-coin:nth-child(31),
+.individual-coin:nth-child(34),
+.individual-coin:nth-child(35),
+.individual-coin:nth-child(38),
+.individual-coin:nth-child(39),
+.individual-coin:nth-child(42),
+.individual-coin:nth-child(43),
+.individual-coin:nth-child(46),
+.individual-coin:nth-child(47),
+.individual-coin:nth-child(50),
+.individual-coin:nth-child(51),
+.individual-coin:nth-child(54),
+.individual-coin:nth-child(55),
+.individual-coin:nth-child(58),
+.individual-coin:nth-child(59),
+.individual-coin:nth-child(62),
+.individual-coin:nth-child(63),
+.individual-coin:nth-child(66),
+.individual-coin:nth-child(67),
+.individual-coin:nth-child(70),
+.individual-coin:nth-child(71),
+.individual-coin:nth-child(74),
+.individual-coin:nth-child(75),
+.individual-coin:nth-child(78),
+.individual-coin:nth-child(79),
+.individual-coin:nth-child(82),
+.individual-coin:nth-child(83),
+.individual-coin:nth-child(86),
+.individual-coin:nth-child(87),
+.individual-coin:nth-child(90),
+.individual-coin:nth-child(91),
+.individual-coin:nth-child(94),
+.individual-coin:nth-child(95),
+.individual-coin:nth-child(98),
+.individual-coin:nth-child(99),
+.individual-coin:nth-child(102),
+.individual-coin:nth-child(103),
+.individual-coin:nth-child(106),
+.individual-coin:nth-child(107),
+.individual-coin:nth-child(110) {
+  background-color: #1d4e80;
+}
+
+.search {
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.div-search {
+  display: flex;
+  justify-content: center;
+  background: #1d4e80;
+  padding: 15px;
+}
+
+.individual-coin:hover {
+  background-color: #b37f29;
+}
+
+.individual-coin:hover:nth-child(n) {
+  background-color: #b37f29;
+}
+
+@media all and (min-width: 768px) {
+  .individual-coin {
+    width: calc(100% / 3);
+  }
+
+  .individual-coin:nth-child(even) {
+    background-color: #396188;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .individual-coin {
+    width: calc(100% / 5);
+  }
+}
