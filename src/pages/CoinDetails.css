@@ -1,0 +1,9 @@
+.name {
+  aspect-ratio: 4 / 1;
+  background-color: #205b96;
+  width: 100%;
+  padding: 20px;
+}
+.name:nth-child(even) {
+  background-color: #1d4e80;
+}
