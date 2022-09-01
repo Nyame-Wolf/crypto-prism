@@ -1,7 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/nav/NavBar';
+import CoinDetails from './pages/CoinDetails';
+import Coins from './pages/Coins';
+
 function App() {
   return (
     <div className="App">
-      Hi Nyame
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Coins />} />
+        <Route path="/coindetail" element={<CoinDetails />} />
+      </Routes>
     </div>
   );
 }
