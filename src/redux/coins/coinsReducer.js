@@ -38,5 +38,4 @@ export const coinsSlice = createSlice({
   },
 });
 
-// export const { reserve } = rocketSlice.actions;
 export default coinsSlice.reducer;

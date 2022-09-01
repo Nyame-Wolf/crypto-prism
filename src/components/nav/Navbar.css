@@ -29,6 +29,7 @@
   gap: 5px;
   align-items: center;
 }
+
 .back-symbol {
   font-size: 2rem;
 }
@@ -37,10 +38,8 @@
   width: 60px;
 }
 
-
-
-.logo-div{
+.logo-div {
   display: flex;
   align-items: center;
-  gap:15px;
+  gap: 15px;
 }

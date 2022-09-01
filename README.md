@@ -8,14 +8,19 @@
 
 **This app is built using react and reduxtoolkit. Ituses [coinlore](https://api.coinlore.net/api/tickers/). api to display a list of the best 100 cryptocurrency coins and their prices in descending order. A user can click on a coin to see the rest of the details about the coin. It has unit tests done using jest and integration testing that tests the whole application.**
 
+[For project video](https://www.loom.com/share/7e16fd4e14174a2ebf1c10df395c72cf)
+
+## Acces link
+## [Live Demo :arrow_forward:]()
 ## Built With
 
-- HTML
-- CSS
-- Javascript
-- React
-- Reduxtoolkit
-- Jest for testing
+- HTML & CSS best practices: Correct use of tags, elements, properties and syntax.
+- Gitflow: Correct use of Branches for deployment and features development.
+- REACT: Used to set the basic structure.
+- REDUX: Centralizing application's state.
+- COINLORE-API: Fetching data.
+- Webpack: Source development for production bundling.
+- Linters Check: Local and Pull Request Github workflows to check for stylistic errors, bugs and syntax errors in code.
 
 ### Prerequisites
 
@@ -83,7 +88,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## [Live Demo :arrow_forward:]()
+
 
 ## Authors
 

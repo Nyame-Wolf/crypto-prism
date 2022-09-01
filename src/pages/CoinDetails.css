@@ -9,6 +9,7 @@
   justify-content: center;
   text-shadow: 0 0 10px #000;
 }
+
 .name:nth-child(even) {
   background-color: #1d4e80;
 }
