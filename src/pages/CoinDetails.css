@@ -13,8 +13,8 @@
   background-color: #1d4e80;
 }
 
-.container-detail{
-   width: 100%;
+.container-detail {
+  width: 100%;
   aspect-ratio: 2 / 1;
   background-image: linear-gradient(to right, transparent, #205b96), url(../assets/bitcoinbg.jpg);
   background-size: cover;
@@ -26,6 +26,6 @@
   align-items: center;
 }
 
-.coin-supply{
+.coin-supply {
   font-size: 3em;
 }
