@@ -14,15 +14,29 @@ const CoinDetails = () => {
   }
   return (
     <div>
-      <div className="container">
-        <p>{`Coins supply in market: ${singleData.csupply}`}</p>
+      <div className="container-detail">
+        <p className="coin-supply">Coins supply in market:</p>
+        <p className="coin-supply">${singleData.csupply}</p>
       </div>
-      <p className="name">{singleData.name}</p>
-      <p className="name">{`Rank:  ${singleData.rank}`}</p>
-      <p className="name">{`Symbol:  ${singleData.symbol}`}</p>
-      <p className="name">{`Market cap in USD:  $${singleData.market_cap_usd}`}</p>
-      <p className="name">{`Weekly percentage change:  ${singleData.percent_change_7d}`}</p>
-      <p className="name">{`Price:  $${singleData.price_usd}`}</p>
+      <ul>
+        <li className="name">{singleData.name}</li>
+        <li className="name">
+          <span>Rank :</span> {singleData.rank}
+        </li>
+        <li className="name">
+          <span>Symbol :</span> {singleData.symbol}
+        </li>
+        <li className="name">
+          <span>Market cap in USD :</span> $ {singleData.market_cap_usd}
+        </li>
+        <li className="name">
+          <span>Weekly percentage change :</span> {singleData.percent_change_7d}
+          %
+        </li>
+        <li className="name">
+          <span>Price :</span> $ {singleData.price_usd}
+        </li>
+      </ul>
     </div>
   );
 };

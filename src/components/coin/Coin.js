@@ -7,7 +7,7 @@ const Coin = (props) => {
   return (
     <div className="coin">
       <p className="coin-name">{coin.name}</p>
-      <small>{`$${coin.price_usd}`}</small>
+      <small>{`$ ${coin.price_usd}`}</small>
     </div>
   );
 };

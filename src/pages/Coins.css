@@ -4,7 +4,7 @@
   background-image: linear-gradient(to right, transparent, #205b96), url(../assets/bitcoinbg.jpg);
   background-size: cover;
   padding: 30px;
-  font-size: 2em;
+  font-size: 4em;
   text-shadow: 0 0 10px #000;
   display: flex;
   justify-content: center;
