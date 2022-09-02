@@ -110,7 +110,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - Hat tip to anyone whose code was used
-- Much greatful to my friends [Vitor](https://github.com/VitorGuedesMadeira) for the feedback and his input in design
+
+- Much greatful to my friends [Muturi](https://github.com/waiyaki) for his support and feedback always and  [Vitor](https://github.com/VitorGuedesMadeira) for his insightful feedback   input in design
 - Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 - [Coinlore api](https://api.coinlore.net/api/tickers/) which has granted me free access to api.
 
