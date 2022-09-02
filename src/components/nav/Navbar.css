@@ -43,3 +43,15 @@
   align-items: center;
   gap: 15px;
 }
+
+.logo,
+.logo-p {
+  font-size: 0.6em;
+}
+
+@media all and (min-width: 768px) {
+  .logo,
+  .logo-p {
+    font-size: 1.4em;
+  }
+}

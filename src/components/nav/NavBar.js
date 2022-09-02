@@ -16,7 +16,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="logo-div">
-        <p>Crypto Prism</p>
+        <p className="logo-p">Crypto Prism</p>
         <img src={prism} alt="prism logo" className="prism" />
       </div>
     </nav>
