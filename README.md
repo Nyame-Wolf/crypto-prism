@@ -8,7 +8,7 @@
 
 **This app is built using react and reduxtoolkit. Ituses [coinlore](https://api.coinlore.net/api/tickers/). api to display a list of the best 100 cryptocurrency coins and their prices in descending order. A user can click on a coin to see the rest of the details about the coin. It has unit tests done using jest and integration testing that tests the whole application.**
 
-[For project video](https://www.loom.com/share/7e16fd4e14174a2ebf1c10df395c72cf)
+
 
 ## Acces link
 ## [Live Demo :arrow_forward:](https://crypto-prism.netlify.app)
