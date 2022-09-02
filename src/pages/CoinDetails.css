@@ -15,10 +15,9 @@
 
 .container-detail {
   width: 100%;
-  aspect-ratio: 2 / 1;
   background-image: linear-gradient(to right, transparent, #205b96), url(../assets/bitcoinbg.jpg);
   background-size: cover;
-  padding: 30px;
+  padding: 90px;
   text-shadow: 0 0 10px #000;
   display: flex;
   flex-direction: column;
