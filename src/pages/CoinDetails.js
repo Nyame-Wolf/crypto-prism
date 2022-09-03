@@ -19,7 +19,7 @@ const CoinDetails = () => {
         <p className="coin-supply">${singleData.csupply}</p>
       </div>
       <ul>
-        <li className="name"> 
+        <li className="name">
           <span>name :</span> {singleData.name}
         </li>
         <li className="name">
