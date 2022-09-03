@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className="navigation-ul">
           <li className="NavLink">
             <NavLink to="/" className="logo">
-              {location.pathname === '/' ? 'COINS' : '<BACK'}
+              {location.pathname === '/' ? 'COINS' : '< BACK'}
             </NavLink>
           </li>
         </ul>
