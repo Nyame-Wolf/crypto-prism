@@ -1,0 +1,40 @@
+.name {
+  background-color: #205b96;
+  width: 100%;
+  padding: 40px;
+  background-image: url(../assets/3px-tile.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-shadow: 0 0 10px #000;
+}
+
+.name:nth-child(even) {
+  background-color: #1d4e80;
+}
+
+.container-detail {
+  width: 100%;
+  background-image: linear-gradient(to right, transparent, #205b96), url(../assets/bitcoinbg.jpg);
+  background-size: cover;
+  padding: 40px;
+  text-shadow: 0 0 10px #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-supply {
+  font-size: 1.5em;
+}
+
+@media all and (min-width: 768px) {
+  .coin-supply {
+    font-size: 3em;
+  }
+
+  .container-detail {
+    padding: 90px;
+  }
+}
